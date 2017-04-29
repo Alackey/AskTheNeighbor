@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Results</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -22,30 +23,25 @@
 
   <!-- Main content -->
   <div class="content">
-    <div class="wrapper">
-      <div class="container">
-        <br>
-        <div class="row">
-          <!-- <div class="col-md-8 col-sm-8 col-xs-6 search locationField">
-            <input placeholder="Search..." type="text" id="searchBar autocomplete" onFocus="geolocate()">
-          </div> -->
-          <div id="locationField" class="col-md-8 col-sm-8 col-xs-6">
-            <input id="autocomplete" placeholder="Enter your address..." onFocus="geolocate()" type="text"></input>
-          </div>
-          <div class="col-md-4 col-sm-4 col-xs-6 miles">
-            <select class="milesSelect">
-              <option>5</option>
-              <option>10</option>
-              <option>15</option>
-              <option>20</option>
-              <option>25</option>
-            </select>
-            <label class="milesLabel">&nbsp; mi</label>
-          </div>
+    <div class="container">
+      <br>
+      <div class="row">
+        <div id="locationField" class="col-md-8 col-sm-8 col-xs-12">
+          <input id="autocomplete" placeholder="Enter your address..." onFocus="geolocate()" type="text"></input>
         </div>
-        <br>
+        <div class="col-md-4 col-sm-4 col-xs-12 miles">
+          <select class="milesSelect">
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+          </select>
+          <label class="milesLabel">&nbsp; mi</label>
+        </div>
       </div>
     </div>
+  </div>
 
     <!-- Middle Content -->
     <div id="middle-content">

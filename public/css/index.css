@@ -18,6 +18,10 @@
   height: 25px;
 }
 
+#locationField, .miles {
+  margin-bottom: 50px;
+}
+
 .milesSelect{
   height: 40px;
   width: 79.5%;
@@ -144,7 +148,6 @@
 
 #locationField {
   height: 20px;
-  margin-bottom: 2px;
 }
 
 

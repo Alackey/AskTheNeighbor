@@ -1,5 +1,5 @@
 {
-  "name": "killabackend",
+  "name": "asktheneighbor",
   "version": "1.0.0",
   "description": "The backend for our moving website.",
   "main": "app.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/alackey/killabackend.git"
+    "url": "git+ssh://git@github.com/alackey/asktheneighbor.git"
   },
   "author": "Killabyte",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/alackey/killabackend/issues"
+    "url": "https://github.com/alackey/asktheneighbor/issues"
   },
-  "homepage": "https://github.com/alackey/killabackend#readme",
+  "homepage": "https://github.com/alackey/asktheneighbor#readme",
   "dependencies": {
     "@google-cloud/datastore": "^1.0.0",
     "body-parser": "^1.13.3",
