@@ -1,10 +1,9 @@
 # AskTheNeighbor
+https://www.asktheneighbor.org/
+
+This is the source for the extension of https://github.com/alackey/killabackend
 
 ## Getting Started
-Go here: https://www.itc.alackey.com/ or http://52.38.10.190:3000/
-
-OR
-
 1. Clone repo
 2. cd into root directory
 3. ```npm install```
